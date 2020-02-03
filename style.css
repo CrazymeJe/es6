@@ -32,3 +32,41 @@
 .background-button{
     background-color: rgba(255, 255, 255, 0.6);
 }
+.background-main{
+    background-color: #f1f1f1;
+}
+.border-button{
+    border: 1px solid #000;
+    border-radius: 0px;
+    background-color: #fff;
+    color: #000;
+}
+.right{
+    float: right;
+}
+.color-button{
+    background-color: #000;
+    border: solid 1px #000;
+    border-radius: 0px;
+}
+.color-button span{
+    background-color: #fff;
+    color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.footer-card{
+    border-top: 1px solid #ccc;
+}
+.container-img{
+    width: 100px;
+}
+.container-img img{
+    width: 100%;
+}
+.testo-footer-card span{
+    opacity: 0.6;
+}
+.text-center span{
+    opacity: 0.6;
+}
