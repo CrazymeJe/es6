@@ -1,0 +1,3 @@
+$(".iscriviti").click (function () {
+    
+});

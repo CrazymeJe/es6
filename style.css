@@ -10,6 +10,13 @@
 .col-12{
     padding: 0;
 }
+.title{
+    height: 300px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .title span{ 
     background-color: #000;
     color: #fff;
@@ -127,4 +134,92 @@
 }
 .advertise{
     background-color: #fff;
+}
+.tags-text{
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+.tags-text p{
+    margin-bottom: 0;
+}
+.tags-content{
+    background-color: #fff;
+    padding: 20px 40px 20px 40px;
+}
+.tags-content a{
+    color: #000;
+    background-color: #f1f1f1;
+    margin: 15px 5px 15px 5px;
+}
+.tags-content a:first-child{
+    color: #fff;
+    background-color: #000;
+}
+.inspiretion-text{
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+.inspiretion-text p{
+    margin-bottom: 0;
+}
+.inspiration-img img{
+    width: 176px;
+    margin: 10px;
+}
+.inspiration-img{
+    background-color: #fff;
+}  
+.follow-text{
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+.follow-text p{
+    margin-bottom: 0;
+}
+.follow-content a{
+    color: #000;
+    font-size: 20px;
+}
+.follow-content{
+    padding: 10px;
+    background-color: #fff;
+}
+.subsrcibe-text{
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+}
+.subsrcibe-text p{
+    margin-bottom: 0;
+}
+.subscribe-content{
+    background-color: #fff;
+    padding: 15px;
+}
+.input-email{
+    border-radius: 0;
+}
+.input-button{
+    border-radius: 0;
+    width: 100%;
+    background-color: #f44355;
+    color: #fff;
+    border-color: #f44355;
+}
+.top-button{
+    background-color: #000;
+    border-radius: 0;
+    border: solid 1px #000;
+    color: #fff;
+}
+.padding{
+    background-color: #616161;
+    color: #fff;
+    padding: 30px;
+}
+body{
+    background-color: #f1f1f1;
 }
