@@ -223,3 +223,17 @@
 body{
     background-color: #f1f1f1;
 }
+.blocco{
+    background-color: #000;
+    opacity: 0.5;
+    height: 5000px;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+.nascondi{
+    display: none;
+}
+.no-scroll{
+    overflow: hidden;
+}
