@@ -224,16 +224,40 @@ body{
     background-color: #f1f1f1;
 }
 .blocco{
-    background-color: #000;
-    opacity: 0.5;
-    height: 5000px;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 2000px;
     width: 100%;
     position: absolute;
     z-index: 10;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;*/
 }
 .nascondi{
     display: none;
 }
 .no-scroll{
     overflow: hidden;
+}
+.subscribe-form .subsrcibe-text{    
+    background-color: #fff;
+    color: #000;
+    font-size: 30px;
+}
+.subscribe-form{
+    width: 70%;
+    top: 50px;
+    margin: auto;
+}
+
+@media (max-width: 768px) { 
+    .img{
+        height: 250px;
+        background-image: url(img/jane.jpg);
+        background-size: cover;
+    }
+    .inspiration-img img{
+        width: 130px;
+        
+    }
 }
